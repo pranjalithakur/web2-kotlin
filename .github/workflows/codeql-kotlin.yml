@@ -32,11 +32,6 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-        with:
-          packages: |
-            platform-tools
-            platforms;android-26
-            build-tools;26.0.3
 
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v3
