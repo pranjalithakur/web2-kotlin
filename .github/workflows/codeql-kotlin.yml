@@ -2,11 +2,7 @@ name: "CodeQL - Kotlin (no build)"
 
 on:
   push:
-    paths:
-      - "kotlin/**"
   pull_request:
-    paths:
-      - "kotlin/**"
   schedule:
     - cron: "0 0 * * 0"
 
